@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="@color/chip_back"/>
+
+    <corners
+        android:bottomLeftRadius="@dimen/chip_back_radius"
+        android:bottomRightRadius="@dimen/chip_back_radius"
+        android:topLeftRadius="@dimen/chip_back_radius"
+        android:topRightRadius="@dimen/chip_back_radius" />
+
+</shape>

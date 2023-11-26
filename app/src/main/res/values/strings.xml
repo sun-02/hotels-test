@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">hotels-test</string>
+    <string name="navigate_back">Navigate back</string>
+
+    <!-- Hotel -->
+    <string name="title">Hotel</string>
+    <string name="rating_exellent">5 Exellent</string>
+    <string name="hotel_name" translatable="false">Steigenberger Makadi</string>
+    <string name="hotel_address" translatable="false">Madinat Makadi, Safaga Road, Makadi Bay, Египет</string>
+    <string name="price_from">from %1$s ₽</string>
+    <string name="price_for_it">for a tour with a flight</string>
+    <string name="about_hotel">Об отеле</string>
+    <string name="property1">Facilities</string>
+    <string name="property2">What is included</string>
+    <string name="property3">What is not included</string>
+    <string name="property_desc">Everything you need</string>
+    <string name="navigate_to_room_selection">To room selection</string>
+
+    <!-- Rooms -->
+    <string name="learn_more">Learn more about room</string>
+    <string name="navigate_to_booking">To booking</string>
+
+    <!-- Booking -->
+    <string name="departure_label">Departure</string>
+    <string name="country_city_label">Country, City</string>
+    <string name="dates_label">Dates</string>
+    <string name="dates" translatable="false">%1$s - %2$s</string>
+    <string name="number_of_nights_label">Number of nights</string>
+    <string name="hotel_label">Hotel</string>
+    <string name="room_label">Room</string>
+    <string name="nutrition_label">Nutrition</string>
+    <string name="customer_info">Customer info</string>
+    <string name="phone_number_hint">Phone number</string>
+    <string name="email_hint">Email</string>
+    <string name="first_name_hint">First name</string>
+    <string name="second_name_hint">Second name</string>
+    <string name="date_of_birth_hint">Date of birth</string>
+    <string name="citizenship_hint">Citizenship</string>
+    <string name="passport_number_hint">Passport number</string>
+    <string name="passport_valid_until_hint">Passport valid until</string>
+    <string name="tour_price_label">Tour price</string>
+    <string name="price" translatable="false">%1$d ₽</string>
+    <string name="fuel_fee_label">Fuel fee</string>
+    <string name="service_fee_label">Service fee</string>
+    <string name="checkout_label">Checkout</string>
+    <string name="add_tourist_label">Add tourist</string>
+    <string name="customer_info_remark">This data is not shared with anyone. After payment, we will send a receipt to the number and mail you specified.</string>
+    <string name="checkout_value">Pay %1$d ₽</string>
+
+    <!-- Order paid -->
+    <string name="order_paid_title">Order paid</string>
+    <string name="order_paid_label">Your order is paid</string>
+    <string name="order_detail">Order confirmation No. %1$d may take some time (from 1 hour to a day). As soon as we receive a response from the tour operator, a notification will be sent to your email.</string>
+    <string name="navigate_to_hotel">Super!</string>
+</resources>

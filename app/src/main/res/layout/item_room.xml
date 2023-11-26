@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/margin"
+    android:background="@drawable/surface">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin"
+        android:orientation="horizontal"
+        app:layout_constraintDimensionRatio="343:257"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <FrameLayout
+        android:id="@+id/pager_dots_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:paddingHorizontal="7dp"
+        android:layout_marginBottom="@dimen/half_margin"
+        android:background="@drawable/tab_indicator_background"
+        app:layout_constraintBottom_toBottomOf="@id/pager"
+        app:layout_constraintStart_toStartOf="@id/pager"
+        app:layout_constraintEnd_toEndOf="@id/pager">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/pager_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabGravity="center"
+            app:tabMaxWidth="12dp"
+            app:tabIndicatorHeight="0dp"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/room_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/half_margin"
+        android:includeFontPadding="false"
+        tools:text="name"
+        android:textAppearance="@style/TextAppearance.Hotelstest.Header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pager" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/peculiarities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/half_margin"
+        app:chipSpacingVertical="@dimen/chip_spacing"
+        app:chipSpacingHorizontal="@dimen/chip_spacing"
+        app:layout_constraintTop_toBottomOf="@id/room_name" />
+
+    <TextView
+        android:id="@+id/learn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/half_margin"
+        android:background="@drawable/learn_more_background"
+        android:gravity="center_vertical"
+        android:drawablePadding="3dp"
+        android:drawableTint="?attr/colorPrimary"
+        android:includeFontPadding="false"
+        android:paddingVertical="7dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="7dp"
+        android:text="@string/learn_more"
+        android:textAppearance="@style/TextAppearance.Hotelstest.Rank"
+        android:textColor="?attr/colorPrimary"
+        app:drawableRightCompat="@drawable/ic_arrow_right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/peculiarities" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:includeFontPadding="false"
+        tools:text="from 1234"
+        android:textAppearance="@style/TextAppearance.Hotelstest.Price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/learn_more" />
+
+    <TextView
+        android:id="@+id/price_for_it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/half_margin"
+        android:layout_marginTop="@dimen/margin"
+        android:includeFontPadding="false"
+        android:text="for tourrr"
+        android:textAppearance="@style/TextAppearance.Hotelstest.priceForIt"
+        app:layout_constraintStart_toEndOf="@id/price"
+        app:layout_constraintBaseline_toBaselineOf="@id/price" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/margin"
+        android:includeFontPadding="false"
+        android:text="@string/navigate_to_booking"
+        android:textAppearance="@style/TextAppearance.Hotelstest.Button"
+        app:shapeAppearanceOverlay="@style/RoundedSquare"
+        app:layout_constraintTop_toBottomOf="@id/price_for_it"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

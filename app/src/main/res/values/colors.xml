@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="indicator_default">#38000000</color>
+    <color name="chip_back">#FBFBFC</color>
+    <color name="property_divider">#26828796</color>
+    <color name="properties_surface">#FBFBFC</color>
+    <color name="fragment_background">#FFF6F6F9</color>
+    <color name="hint_color">#A9ABB7</color>
+    <color name="input_text_color">#14142B</color>
+    <color name="input_layout_error">#26EB5757</color>
+    <color name="rank_background">#33FFC700</color>
+    <color name="learn_more_background">#1A0D72FF</color>
+    <color name="rank_text">#FFA800</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_blue">#FF0D72FF</color>
+    <color name="text_gray">#FF828796</color>
+    <color name="text_dark_gray">#FF2C3035</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/black">
+    <item>
+        <selector>
+            <item android:state_pressed="true">
+                <shape
+                    android:shape="ring"
+                    android:innerRadius="0dp"
+                    android:thickness="15dp"
+                    android:useLevel="false">
+                    <solid android:color="@color/property_divider"/>
+                </shape>
+            </item>
+            <item>
+                <shape
+                    android:shape="ring"
+                    android:innerRadius="0dp"
+                    android:thickness="15dp"
+                    android:useLevel="false">
+                    <solid android:color="@android:color/transparent"/>
+                </shape>
+            </item>
+        </selector>
+
+    </item>
+</ripple>

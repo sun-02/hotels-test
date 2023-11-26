@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/surface"
+    android:orientation="vertical"
+    android:padding="@dimen/margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:includeFontPadding="false"
+            android:textAppearance="@style/TextAppearance.Hotelstest.Header"
+            tools:text="tourist" />
+
+        <CheckBox
+            android:id="@+id/open_close_button"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:button="@drawable/check_box_button"
+            app:buttonTint="@null" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fields_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/half_margin"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/first_name_layout"
+            style="@style/Widget.Hoteltext.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_margin"
+            android:hint="@string/first_name_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_regular_400"
+                android:paddingStart="@dimen/margin"
+                android:paddingTop="18dp"
+                android:paddingEnd="@dimen/margin"
+                android:paddingBottom="5dp"
+                android:textColor="@color/input_text_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/second_name_layout"
+            style="@style/Widget.Hoteltext.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_margin"
+            android:hint="@string/second_name_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/second_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_regular_400"
+                android:paddingStart="@dimen/margin"
+                android:paddingTop="18dp"
+                android:paddingEnd="@dimen/margin"
+                android:paddingBottom="5dp"
+                android:textColor="@color/input_text_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/date_of_birth_layout"
+            style="@style/Widget.Hoteltext.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_margin"
+            android:hint="@string/date_of_birth_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/date_of_birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_regular_400"
+                android:paddingStart="@dimen/margin"
+                android:paddingTop="18dp"
+                android:paddingEnd="@dimen/margin"
+                android:paddingBottom="5dp"
+                android:textColor="@color/input_text_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/citizenship_layout"
+            style="@style/Widget.Hoteltext.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_margin"
+            android:hint="@string/citizenship_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/citizenship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_regular_400"
+                android:paddingStart="@dimen/margin"
+                android:paddingTop="18dp"
+                android:paddingEnd="@dimen/margin"
+                android:paddingBottom="5dp"
+                android:textColor="@color/input_text_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passport_number_layout"
+            style="@style/Widget.Hoteltext.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_margin"
+            android:hint="@string/passport_number_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passport_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_regular_400"
+                android:paddingStart="@dimen/margin"
+                android:paddingTop="18dp"
+                android:paddingEnd="@dimen/margin"
+                android:paddingBottom="5dp"
+                android:textColor="@color/input_text_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passport_valid_until_layout"
+            style="@style/Widget.Hoteltext.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_margin"
+            android:hint="@string/passport_valid_until_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passport_valid_until"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_regular_400"
+                android:paddingStart="@dimen/margin"
+                android:paddingTop="18dp"
+                android:paddingEnd="@dimen/margin"
+                android:paddingBottom="5dp"
+                android:textColor="@color/input_text_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.order_paid.OrderPaidFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageButton
+            android:id="@+id/navigate_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="4dp"
+            android:background="@drawable/navigation_button_background"
+            app:srcCompat="@drawable/ic_arrow_left"
+            android:contentDescription="@string/navigate_to_booking" />
+
+        <TextView
+            android:id="@+id/hotel_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin"
+            android:layout_marginHorizontal="@dimen/margin"
+            android:text="@string/order_paid_title"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.Hotelstest.Title"
+            tools:layout_editor_absoluteX="16dp" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:layout_marginTop="123dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/im_order_paid" />
+
+            <TextView
+                android:id="@+id/order_paid_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:includeFontPadding="false"
+                android:text="@string/order_paid_label"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.Hotelstest.Header" />
+
+            <TextView
+                android:id="@+id/order_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="22dp"
+                android:text="@string/order_detail"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.Hotelstest.priceForIt" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/margin"
+        android:paddingVertical="@dimen/margin2"
+        android:background="@color/white"
+        android:layout_gravity="bottom">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:includeFontPadding="false"
+            android:text="@string/navigate_to_hotel"
+            android:textAppearance="@style/TextAppearance.Hotelstest.Button"
+            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+    </FrameLayout>
+
+</LinearLayout>
+

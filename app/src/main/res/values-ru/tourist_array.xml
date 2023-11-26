@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tourist_array">
+        <item>Первый турист</item>
+        <item>Второй турист</item>
+        <item>Третий турист</item>
+        <item>Четвертый турист</item>
+        <item>Пятый турист</item>
+    </string-array>
+</resources>

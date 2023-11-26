@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_plus">20dp</dimen>
+    <dimen name="margin2">12dp</dimen>
+    <dimen name="margin3">10dp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+    <dimen name="double_margin">32dp</dimen>
+    <dimen name="property_margin">2dp</dimen>
+    <dimen name="chip_spacing">8dp</dimen>
+    <dimen name="pager_item_corner_radius">15dp</dimen>
+    <dimen name="properties_corner_radius">15dp</dimen>
+    <dimen name="surface_corner_radius">12dp</dimen>
+    <dimen name="tab_indicator_radius">5dp</dimen>
+    <dimen name="chip_back_radius">5dp</dimen>
+    <dimen name="input_field_radius">10dp</dimen>
+</resources>

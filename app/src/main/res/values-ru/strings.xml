@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">hotels-test</string>
+    <string name="navigate_back">Вернуться</string>
+    <string name="title">Отель</string>
+    <string name="rating_exellent">5 Превосходно</string>
+    <string name="price_from">от %1$s ₽</string>
+    <string name="price_for_it">за тур с перелетом</string>
+    <string name="about_hotel">Об отеле</string>
+    <string name="property1">Удобства</string>
+    <string name="property2">Что включено</string>
+    <string name="property3">Что не включено</string>
+    <string name="property_desc">Самое необходимое</string>
+    <string name="navigate_to_room_selection">К выбору номера</string>
+    <string name="learn_more">Подробнее о номере</string>
+    <string name="navigate_to_booking">Выбрать номер</string>
+    <string name="departure_label">Вылет из</string>
+    <string name="country_city_label">Страна, город</string>
+    <string name="dates_label">Даты</string>
+    <string name="number_of_nights_label">Количество ночей</string>
+    <string name="room_label">Номер</string>
+    <string name="nutrition_label">Питание</string>
+    <string name="hotel_label">Отель</string>
+    <string name="customer_info">Информация о покупателе</string>
+    <string name="phone_number_hint">Номер телефона</string>
+    <string name="email_hint">Почта</string>
+    <string name="first_name_hint">Имя</string>
+    <string name="second_name_hint">Фамилия</string>
+    <string name="date_of_birth_hint">Дата рождения</string>
+    <string name="passport_number_hint">Номер загранпаспорта</string>
+    <string name="passport_valid_until_hint">Срок действия загранпаспорта</string>
+    <string name="tour_price_label">Тур</string>
+    <string name="fuel_fee_label">Топливный сбор</string>
+    <string name="service_fee_label">Сервисный сбор</string>
+    <string name="checkout_label">К оплате</string>
+    <string name="add_tourist_label">Добавить туриста</string>
+    <string name="citizenship_hint">Гражданство</string>
+    <string name="customer_info_remark">Эти данные никому не передаются. После оплаты мы вышлем чек на указанный вами номер и почту.</string>
+    <string name="checkout_value">Оплатить %1$d ₽</string>
+    <string name="order_paid_title">Заказ оплачен</string>
+    <string name="order_paid_label">Ваш заказ оплачен</string>
+    <string name="order_detail">Подтверждение заказа №%1$d может занять некоторое время (от 1 часа до суток). Как только мы получим ответ от туроператора, вам на почту придет уведомление.</string>
+    <string name="navigate_to_hotel">Супер!</string>
+</resources>
